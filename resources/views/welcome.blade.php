@@ -1,13 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Inicio</title>
-</head>
-<body>
-    @include('partials.nav')
+{{-- @component('components.layout') --}}
+<x-layout meta-title="Home" meta-description="Home description">
     <h1>Inicio</h1>
-</body>
-</html>
+
+    {{-- <x-slot:metaTitle>
+        Home title
+    </x-slot:metaTitle> --}}
+</x-layout>
+
+{{-- @endcomponent --}}
+
